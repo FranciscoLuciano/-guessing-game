@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(300deg, rgba(194, 233, 251, 1) 0%, rgba(161, 196, 253, 1) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: grid;
+  place-items: center;
+  height: 100%;
+}
+
+.main {
+
+  margin: 0 auto;
+  
+  text-align: center;
+
+
+  padding: 48px 64px 64px 64px;
+
+  border-radius: 8px;
+  background-color: white;
+
+}
+
+h1 {
+  font-family: 'MontSerrat', sans-serif;
+  color: #34355B;
+}
+
+p {
+  font-family: 'DM Sans', sans-serif;
+  color: #34355B;
+  padding-block: 16px 48px;
+}
+
+.text {
+  padding-top: 48px;
+}
+
+.formulario {
+  display: flex;
+  justify-content: center;
+}
+
+#numberGuessed {
+  border: none;
+  border-radius: 4px;
+  background-color: #DCE2E9;
+  width: 43px;
+  height: 53px;
+
+  text-align: center;
+}
+
+button {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  border: none;
+  border-radius: 4px;
+  background-color: #7879F1;
+  padding: 16px;
+  color: #FFFFFF;
+  cursor: pointer;
+  &.try-again-button{
+    border-radius: 0.4rem;
+  }
+}
+
+button:hover {
+  background-color: #6565fb;
+}
+
+.box-2 {
+  text-align: center;
+}
+
+.box-2 p {
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+
+.hide {
+  display: none;
+}
